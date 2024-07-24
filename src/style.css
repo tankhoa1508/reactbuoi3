@@ -1,0 +1,42 @@
+.student-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #3498db;
+}
+h1{
+    text-align: center;
+    color: #3498db;
+    margin-top: 100px;
+}
+.student-item.active-color{
+    background: cornsilk;
+}
+.list-ground{
+    margin-top: 55px;}
+.delete-btn{
+    background-color: rgb(220, 60, 60);
+    border: none;
+}
+.delete-btn:hover{
+    background-color: rgb(220, 60, 60);
+    
+}
+.student-item .student-name{
+    width: 80%;
+    text-align: left;
+    transform: translateY(34%);
+    color: blue;
+}
+.student-name.active{
+    text-decoration: line-through;
+}
+
+.add-input{
+    border: 1px solid #3498db ;
+    padding: 20px;
+    background: cornsilk;
+}
+.add-contain{
+    margin-top: 60px;
+}
